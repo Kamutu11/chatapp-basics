@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.messages {
+    border: 2px solid black;
+    width: 90vw;
+    height: 60vh;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin: 2rem;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: brown;
+}
